@@ -78,6 +78,7 @@ basic.forever(function () {
             control.reset()
         } else {
             basic.showIcon(IconNames.No)
+            basic.pause(500)
             State = 3
         }
     }
